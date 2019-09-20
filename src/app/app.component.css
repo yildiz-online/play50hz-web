@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+p.introduction {
+  font-size: x-large;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.footer-copyright {
+  padding-top:3%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+}
+
