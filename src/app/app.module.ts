@@ -38,8 +38,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, {useHash: true}),
-    NgbModule
+    NgbModule,
+    RouterModule.forRoot(appRoutes, {useHash: true})
   ],
   providers: [
     HttpClient,
