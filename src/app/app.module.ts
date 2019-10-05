@@ -38,11 +38,11 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
+    RouterModule.forRoot(appRoutes, {useHash: true}),
     NgbModule
   ],
   providers: [
     HttpClient,
-    RouterModule.forRoot(appRoutes, {useHash: true}),
     { provide: LOCALE_ID, useValue: 'fr' }
   ],
   bootstrap: [AppComponent]
