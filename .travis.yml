@@ -22,3 +22,7 @@ before_install:
 script:
   - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs yarn install
   - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs ng build --prod
+
+after_success:
+  - npm install travis-ci
+  - node trigger-build.js
