@@ -10,41 +10,13 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-import {BrowserModule} from '@angular/platform-browser';
-import {LOCALE_ID, NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { RouterModule, Routes } from '@angular/router';
-import { registerLocaleData } from '@angular/common';
-import localeFr from '@angular/common/locales/fr';
-import localeFrExtra from '@angular/common/locales/extra/fr';
+import {Component} from '@angular/core';
 
-
-import {AppComponent} from './app.component';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-import {HomeComponent} from "./home/home.component";
-
-registerLocaleData(localeFr, 'fr', localeFrExtra);
-
-const appRoutes: Routes = [
-  { path: '',             redirectTo: 'home', pathMatch : 'full' },
-  { path: 'home',         component: HomeComponent }
-];
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    NgbModule
-  ],
-  providers: [
-    HttpClient,
-    RouterModule.forRoot(appRoutes, {useHash: true}),
-    { provide: LOCALE_ID, useValue: 'fr' }
-  ],
-  bootstrap: [AppComponent]
+@Component({
+  selector: 'app-root',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class AppModule { }
+export class HomeComponent {
+
+}
