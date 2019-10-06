@@ -22,6 +22,7 @@ import localeFrExtra from '@angular/common/locales/extra/fr';
 import {AppComponent} from './app.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {HomeComponent} from "./home/home.component";
+import {NavigationComponent} from "./navigation/navigation.component";
 
 registerLocaleData(localeFr, 'fr', localeFrExtra);
 
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
