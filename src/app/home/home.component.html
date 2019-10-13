@@ -39,28 +39,18 @@
   Le manager fonctionne sous windows ou linux.
 </p>
 <p>
-  La dernière étape avant de lancer le manager est d'éditer le fichier de configuration(configuration.properties) :
+  Le système est entièrement préconfiguré et aucun changement dans la configuration n'est nécessaire si le manager et le player tournent sur la même machine.
 </p>
-  <ul>
-  <li>system.support Les systèmes supportés, actuellement seuls snes(super nintendo), nes (nintendo), sms (master system) et gen (megadrive) sont supportés.</li>
-  <li>video.directory Le dossier où se trouveront les vidéos de vos jeux, elles devront être dans un sous dossier nommé comme le système (snes, nes, gen, sms). </li>
-  <li>cover.directory Le dossier où mettre vos covers de jeu, aussi dans un sous dossier avec le nom du système.</li>
-  <li>roms.directory Le dossier où déposer vos roms, toujours dans un sous dossier système.</li>
-  <li>player.directory Le dossier où se trouve 'player.zip', par défaut ce devrait être le dossier du manager/player.</li>
-  <li>csv.directory Le dossier où sera traitée la base de donnée CSV.</li>
-  <li>web-server.port Le port de communication entre le manager et les players.</li>
-  <li>theme.directory Le dossier où se trouvent les fichiers de thème du manager, par défaut dossier du manager/themes</li>
-  <li>csv.account Le dossier où sont stockés les fichiers de comptes utilisateurs.</li>
-  <li>launchbox.directory Le dossier où sera téléchargée la base de donnée launchbox.</li>
-  <li>clones.directory Le dossier où se trouvent les listes de clones(gen-clones.txt, snes-clones.txt,...)</li>
-  <li>clean.directory LE dossier où se trouvent les listes de nettoyage de nom(gen-clean.txt, snes-clean.txt...)</li>
-  </ul>
 <p>
   Sous windows, vous pouvez éxecuter le script de démarrage "run.bat", sous linux, dans un terminal, rendez vous dans le bon dossier et lancez la commande ' java - jar retro-manager.jar '
 </p>
 
 <p>
-  Une fois le démarrage terminé, sur la machine où vous voulez jouer, ouvrez votre navigateur et entrez l'url suivante: http://'ip de la machine du manager':8080/setup
+  Une fois le démarrage terminé, ouvrez votre navigateur et entrez l'url suivante: http://localhost:8080/setup, le player se téléchargera.
+</p>
+
+<p>
+  Décompressez le player de la même manière que le manager, lancez run.bat et amusez-vous!
 </p>
 
 <footer>
