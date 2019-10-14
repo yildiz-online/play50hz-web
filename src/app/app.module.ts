@@ -23,18 +23,21 @@ import {AppComponent} from './app.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {HomeComponent} from "./home/home.component";
 import {NavigationComponent} from "./navigation/navigation.component";
+import {RoadmapComponent} from "./roadmap/roadmap.component";
 
 registerLocaleData(localeFr, 'fr', localeFrExtra);
 
 const appRoutes: Routes = [
   { path: '',             redirectTo: 'home', pathMatch : 'full' },
-  { path: 'home',         component: HomeComponent }
+  { path: 'home',         component: HomeComponent },
+  { path: 'roadmap',       component: RoadmapComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    RoadmapComponent,
     NavigationComponent
   ],
   imports: [
