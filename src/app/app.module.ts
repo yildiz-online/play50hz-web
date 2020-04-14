@@ -25,6 +25,7 @@ import {HomeComponent} from "./home/home.component";
 import {DownloadComponent} from "./download/download.component";
 import {NavigationComponent} from "./navigation/navigation.component";
 import {RoadmapComponent} from "./roadmap/roadmap.component";
+import {CopyrightComponent} from "./footer/copyright.component";
 
 registerLocaleData(localeFr, 'fr', localeFrExtra);
 
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     HomeComponent,
     DownloadComponent,
     RoadmapComponent,
-    NavigationComponent
+    NavigationComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
