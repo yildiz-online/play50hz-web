@@ -1,0 +1,16 @@
+.navbar-logo {
+  max-height: 96px;
+  max-width: 96px;
+}
+
+.navbar-logo-text {
+  float: right;
+  padding-top: 30px;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+
