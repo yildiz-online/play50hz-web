@@ -29,7 +29,9 @@ export class NavigationComponent {
   swapLanguage() {
     if(this.language === "en") {
       this.setLanguage("fr");
-    }  else {
+    } else if (this.language === "fr") {
+      this.setLanguage("tr");
+    } else {
       this.setLanguage("en");
     }
   }

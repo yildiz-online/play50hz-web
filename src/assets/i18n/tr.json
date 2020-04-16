@@ -1,0 +1,16 @@
+{
+  "home": {
+    "jumbo": {
+      "title": "Retro oyun kolaylaştı",
+      "player": "Tüm retro oyunlarınızı basitçe oynayın, rom'larınızı ekleyin ve uygulama her şeyi halleder: Emülatörlerin, denetleyicilerin tam yapılandırması ...",
+      "manager": "Düzinelerce oyun koleksiyonunuz var mı? Her şeyi merkezileştirmek ve koleksiyonunuzu sizin için yönetmesine izin vermek için yöneticiyi yükleyin.",
+      "app": "Son bir ayrıntı: ücretsiz!",
+      "download": "Indir"
+    }
+  },
+  "nav": {
+    "download": "Indir Play50hz",
+    "language": "English",
+    "contact": "Temas"
+  }
+}
