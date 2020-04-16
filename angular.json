@@ -7,6 +7,12 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "fr": "src/locale/messages.fr.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -44,6 +50,9 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ]
+            },
+            "fr": {
+              "localize": ["fr"]
             }
           }
         },
@@ -55,6 +64,9 @@
           "configurations": {
             "production": {
               "browserTarget": "play50hz-web:build:production"
+            },
+            "fr": {
+              "browserTarget": "play50hz-web:build:fr"
             }
           }
         },

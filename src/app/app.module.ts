@@ -12,7 +12,6 @@
 
 import {BrowserModule} from '@angular/platform-browser';
 import {LOCALE_ID, NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
@@ -20,7 +19,6 @@ import localeFrExtra from '@angular/common/locales/extra/fr';
 
 
 import {AppComponent} from './app.component';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {HomeComponent} from "./home/home.component";
 import {DownloadComponent} from "./download/download.component";
 import {NavigationComponent} from "./navigation/navigation.component";
@@ -47,12 +45,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    NgbModule,
     RouterModule.forRoot(appRoutes, {useHash: true})
   ],
   providers: [
-    HttpClient,
     { provide: LOCALE_ID, useValue: 'fr' }
   ],
   bootstrap: [AppComponent]
