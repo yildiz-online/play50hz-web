@@ -12,6 +12,7 @@
 
 import {BrowserModule} from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from "@angular/core";
 
 import {AppComponent} from './app.component';
 import {HomeComponent} from "./home/home.component";
@@ -19,7 +20,10 @@ import {DownloadComponent} from "./download/download.component";
 import {NavigationComponent} from "./navigation/navigation.component";
 import {RoadmapComponent} from "./roadmap/roadmap.component";
 import {CopyrightComponent} from "./footer/copyright.component";
-import {NgModule} from "@angular/core";
+
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 const appRoutes: Routes = [
   { path: '',             redirectTo: 'home', pathMatch : 'full' },
@@ -38,10 +42,22 @@ const appRoutes: Routes = [
     CopyrightComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     RouterModule.forRoot(appRoutes, {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

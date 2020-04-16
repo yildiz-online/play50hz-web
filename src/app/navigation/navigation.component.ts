@@ -11,6 +11,7 @@
  */
 
 import {Component} from '@angular/core';
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'navigation',
@@ -19,4 +20,22 @@ import {Component} from '@angular/core';
 })
 export class NavigationComponent {
 
+  private language: string;
+
+  constructor(private translate: TranslateService) {
+    this.setLanguage(translate.getBrowserLang());
+  }
+
+  swapLanguage() {
+    if(this.language === "en") {
+      this.setLanguage("fr");
+    }  else {
+      this.setLanguage("en");
+    }
+  }
+
+  private setLanguage(l: string) {
+    this.translate.use(l);
+    this.language = l;
+  }
 }

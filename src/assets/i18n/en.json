@@ -1,0 +1,15 @@
+{
+  "home": {
+    "jumbo": {
+      "title": "Retro gaming made easy",
+      "player": "Play all your retro games, add your roms, and the app handle everything: emulators configuration, controllers...",
+      "manager": "You have dozen of games? Install the manager, centralize everything and let it handle your whole collection for you.",
+      "app": "One last thing: it's free!",
+      "download": "Download"
+    }
+  },
+  "nav": {
+    "download": "Download Play50hz",
+    "language": "Français"
+  }
+}
