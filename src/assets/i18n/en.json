@@ -11,7 +11,9 @@
       "title": "Why Play50hz ?",
       "card1.title": "Easy to use, select your game, press a button and play!",
       "card1.body": "Nothing else than putting your rom in the right directory, and you're done, no additional configuration, just the fun to rediscover your old treasures.",
-      "card2.title": "I want to play all my old games!!!"
+      "card2.title": "I want to play all my old games!!!",
+      "card2.body": "Game console or arcade systems, anything can be played!",
+      "card2.body2": "Currently, only the Nintendo NES, the Super Nintendo, the Sega Master System and Sega Megadrive are supported, many other will soon be added."
     }
   },
   "nav": {

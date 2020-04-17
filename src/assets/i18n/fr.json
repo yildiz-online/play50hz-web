@@ -11,7 +11,9 @@
       "title": "Pourquoi Play50hz ?",
       "card1.title": "Simple à utiliser, choisissez votre jeu, un bouton pressé et jouez!",
       "card1.body": "Rien de plus que de déposer vos roms dans le dossier, et puis tout est pret, pas de configuration fastidieuse, juste le plaisir de redécouvrir vos anciens jeux.",
-      "card2.title": "Je veux tous mes anciens jeux!!!"
+      "card2.title": "Je veux tous mes anciens jeux!!!",
+      "card2.body": "Que ce soit des consoles ou des bornes d'arcade, tout peut être supporté!",
+      "card2.body2": "Actuellement, seul la Nintendo NES, la Super Nintendo, la Sega Master System et la Sega Megadrive sont supportées, bien d'autres vont être ajoutés."
     }
   },
   "nav": {
