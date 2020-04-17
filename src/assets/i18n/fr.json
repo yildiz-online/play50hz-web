@@ -6,6 +6,11 @@
       "manager": "Vous avez une vraie collection de dizaines de jeux? Installez le manager afin de tout centraliser et laissez le gérer votre collection pour vous.",
       "app": "Un dernier détail: c'est gratuit!",
       "download": "Télécharger"
+    },
+    "content": {
+      "title": "Pourquoi Play50hz ?",
+      "card1.title": "Simple à utiliser, choisissez votre jeu, un bouton pressé et jouez!",
+      "card1.body": "Rien de plus que de déposer vos roms dans le dossier, et puis tout est pret, pas de configuration fastidieuse, juste le plaisir de redécouvrir vos anciens jeux."
     }
   },
   "nav": {
