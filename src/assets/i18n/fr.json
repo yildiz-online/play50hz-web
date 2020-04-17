@@ -13,7 +13,12 @@
       "card1.body": "Rien de plus que de déposer vos roms dans le dossier, et puis tout est pret, pas de configuration fastidieuse, juste le plaisir de redécouvrir vos anciens jeux.",
       "card2.title": "Je veux tous mes anciens jeux!!!",
       "card2.body": "Que ce soit des consoles ou des bornes d'arcade, tout peut être supporté!",
-      "card2.body2": "Actuellement, seul la Nintendo NES, la Super Nintendo, la Sega Master System et la Sega Megadrive sont supportées, bien d'autres vont être ajoutés."
+      "card2.body2": "Actuellement, seul la Nintendo NES, la Super Nintendo, la Sega Master System et la Sega Megadrive sont supportées, bien d'autres vont être ajoutés.",
+      "card3.title": "Je veux personnaliser mon système",
+      "card3.body": "Tout est configurable, chaque élement peut être déplacé, redimensionné, modifié, créez vos propres thèmes pour chaque console, ou même pour chaque jeu.",
+      "card4.title": "Je veux facilement gérer ma collection",
+      "card4.body": "Play50hz est une application de retro gaming, elle est composée d'un serveur(le manager),\n      pour gérer votre collection de jeux retro, et d'un front-end(le player) pour les afficher et y jouer.",
+      "card4.body2": "Grâce au manager qui contiendra et gérera toutes vos roms, couvertures, videos et meta-données,\n      que vous partagerez avec les players qui s'y connecteront, vous gérer tout en un seul endroit."
     }
   },
   "nav": {
