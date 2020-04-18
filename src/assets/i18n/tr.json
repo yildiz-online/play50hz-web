@@ -25,5 +25,12 @@
     "download": "Indir Play50hz",
     "language": "English",
     "contact": "Temas"
+  },
+  "download": {
+    "player.android": "Yakında hazır",
+    "player.linux": "Yakında hazır",
+    "player.windows": "Windows 10'dan indirin",
+    "manager.windows": "Windows 10'dan indirin",
+    "manager.linux": "Linux'dan indirin"
   }
 }

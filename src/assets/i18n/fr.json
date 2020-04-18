@@ -18,12 +18,19 @@
       "card3.body": "Tout est configurable, chaque élement peut être déplacé, redimensionné, modifié, créez vos propres thèmes pour chaque console, ou même pour chaque jeu.",
       "card4.title": "Je veux facilement gérer ma collection",
       "card4.body": "Play50hz offre aussi un gestionnaire pour gérer votre collection de jeux retro, c'est une application dédiée qui vous permet de centraliser votre collection et la partager entre vos machines.",
-      "card4.body2": "Le gesionnaire est capable de détecter les doublons, que ce soit des roms, des covers ou des vidéos, ajoutez les simplement et il se charge de tout réconcilier."
+      "card4.body2": "Le gestionnaire est capable de détecter les doublons, que ce soit des roms, des covers ou des vidéos, ajoutez les simplement et il se charge de tout réconcilier."
     }
   },
   "nav": {
     "download": "Téléchargez Play50hz",
     "language": "Türk",
     "contact": "Contact"
+  },
+  "download": {
+    "player.android": "Bientôt disponible",
+    "player.linux": "Bientôt disponible",
+    "player.windows": "Télécharger sur Windows 10",
+    "manager.windows": "Télécharger sur Windows 10",
+    "manager.linux": "Télécharger sur Linux"
   }
 }

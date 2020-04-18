@@ -25,5 +25,12 @@
     "download": "Download Play50hz",
     "language": "Français",
     "contact": "Contact"
+  },
+  "download": {
+    "player.android": "Soon available",
+    "player.linux": "Soon available",
+    "player.windows": "Download on Windows 10",
+    "manager.windows": "Download on Windows 10",
+    "manager.linux": "Download on Linux"
   }
 }
