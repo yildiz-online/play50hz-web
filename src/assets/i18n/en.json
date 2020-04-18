@@ -16,7 +16,9 @@
       "card2.body2": "Currently, only the Nintendo NES, the Super Nintendo, the Sega Master System and Sega Megadrive are supported, many other will soon be added.",
       "card3.title": "I want to customize my system",
       "card3.body": "Everything is configurable, each element can be moved, resized, modified, create your own themes for each console, or even for each game.",
-      "card4.title": "Je veux facilement gérer ma collection"
+      "card4.title": "I want to easily manage my collection",
+      "card4.body": "Play50hz also offers a manager to manage your collection of retro games, it is a dedicated application that allows you to centralize your collection and share it between your machines.",
+      "card4.body2": "The manager is able to detect duplicates, whether roms, covers or videos, simply add them and it takes care of reconciling everything."
     }
   },
   "nav": {

@@ -17,8 +17,8 @@
       "card3.title": "Je veux personnaliser mon système",
       "card3.body": "Tout est configurable, chaque élement peut être déplacé, redimensionné, modifié, créez vos propres thèmes pour chaque console, ou même pour chaque jeu.",
       "card4.title": "Je veux facilement gérer ma collection",
-      "card4.body": "Play50hz est une application de retro gaming, elle est composée d'un serveur(le manager),\n      pour gérer votre collection de jeux retro, et d'un front-end(le player) pour les afficher et y jouer.",
-      "card4.body2": "Grâce au manager qui contiendra et gérera toutes vos roms, couvertures, videos et meta-données,\n      que vous partagerez avec les players qui s'y connecteront, vous gérer tout en un seul endroit."
+      "card4.body": "Play50hz offre aussi un gestionnaire pour gérer votre collection de jeux retro, c'est une application dédiée qui vous permet de centraliser votre collection et la partager entre vos machines.",
+      "card4.body2": "Le gesionnaire est capable de détecter les doublons, que ce soit des roms, des covers ou des vidéos, ajoutez les simplement et il se charge de tout réconcilier."
     }
   },
   "nav": {
