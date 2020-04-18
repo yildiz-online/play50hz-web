@@ -30,7 +30,12 @@
     "player.android": "Bientôt disponible",
     "player.linux": "Bientôt disponible",
     "player.windows": "Télécharger sur Windows 10",
+    "player.title": "Play50hz est compatible Windows et bientôt Linux et Android",
+    "player.desc": "Une fois téléchargé, déplacez le où vous désirez l'installer, cliquez dessus et laissez le faire, sous windows il est possible d'avoir un avertissement car l'application n'est pas signée, ignorez le.",
     "manager.windows": "Télécharger sur Windows 10",
-    "manager.linux": "Télécharger sur Linux"
+    "manager.linux": "Télécharger sur Linux",
+    "manager.title": "Télécharger Play50hz manager",
+    "manager.desc": "Play50hz est compatible Windows et Linux, c'est un serveur qui peut gérer tout une collection, si vous avez beaucoup de jeux, il est intéressant de l'installer aussi",
+    "title": "Téléchargez Play50hz"
   }
 }

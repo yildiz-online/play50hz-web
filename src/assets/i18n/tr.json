@@ -30,7 +30,12 @@
     "player.android": "Yakında hazır",
     "player.linux": "Yakında hazır",
     "player.windows": "Windows 10'dan indirin",
+    "player.title": "Play50hz Windows ile uyumlu ve yakında Linux ve Android",
+    "player.desc": "İndirdikten sonra, yüklemek istediğiniz yere taşıyın, tıklayın ve yapmasına izin verin, pencerelerde uygulama imzalanmadığı için bir uyarı almak mümkündür, yok sayın.",
     "manager.windows": "Windows 10'dan indirin",
-    "manager.linux": "Linux'dan indirin"
+    "manager.linux": "Linux'dan indirin",
+    "manager.title": "Indir Play50hz manager",
+    "manager.desc": "Play50hz Windows ve Linux uyumludur, tüm koleksiyonu yönetebilen bir sunucudur, çok fazla oyununuz varsa, onu da yüklemek ilginçtir",
+    "title": "Indir Play50hz"
   }
 }
