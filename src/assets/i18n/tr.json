@@ -29,8 +29,9 @@
   "download": {
     "player.android": "Yakında hazır",
     "player.linux": "Linux'dan indirin",
+    "player.raspberrypi4": "Raspberry Pi 64 bits'dan indirin",
     "player.windows": "Windows 10'dan indirin",
-    "player.title": "Play50hz Windows ile uyumlu ve yakında Linux ve Android",
+    "player.title": "Play50hz Windows, Linux, Raspberry PI 4 ile uyumlu ve yakında Android",
     "player.desc": "İndirdikten sonra, yüklemek istediğiniz yere taşıyın, tıklayın ve yapmasına izin verin, pencerelerde uygulama imzalanmadığı için bir uyarı almak mümkündür, yok sayın.",
     "manager.windows": "Windows 10'dan indirin",
     "manager.linux": "Linux'dan indirin",
