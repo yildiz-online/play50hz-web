@@ -29,7 +29,8 @@
   "download": {
     "player.android": "Bientôt disponible",
     "player.linux": "Télécharger sur Linux",
-    "player.raspberrypi4": "Télécharger sur Raspberry Pi 64 bits",
+    "player.raspberrypi32": "Télécharger sur Raspberry Pi 32 bits",
+    "player.raspberrypi64": "Télécharger sur Raspberry Pi 64 bits",
     "player.windows": "Télécharger sur Windows 10",
     "player.title": "Play50hz est compatible Windows, Linux, Raspberry PI 4 et bientôt Android",
     "player.desc": "Une fois téléchargé, déplacez le où vous désirez l'installer, cliquez dessus et laissez le faire, sous windows il est possible d'avoir un avertissement car l'application n'est pas signée, ignorez le.",
