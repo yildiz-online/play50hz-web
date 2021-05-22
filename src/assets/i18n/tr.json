@@ -28,17 +28,11 @@
     "compatibility": "Emülatörler desteklenir"
   },
   "download": {
-    "player.android": "Yakında hazır",
-    "player.linux": "Linux'dan indirin",
-    "player.raspberrypi32": "Raspberry Pi 32 bits'dan indirin",
-    "player.raspberrypi64": "Raspberry Pi 64 bits'dan indirin",
-    "player.windows": "Windows 10'dan indirin",
+    "player.linux": "Linux",
+    "player.raspberrypi64": "Raspberry Pi 64 bits",
+    "player.windows": "Windows 10",
     "player.title": "Play50hz Windows, Linux, Raspberry PI 4 ile uyumlu ve yakında Android",
     "player.desc": "İndirdikten sonra, yüklemek istediğiniz yere taşıyın, tıklayın ve yapmasına izin verin, pencerelerde uygulama imzalanmadığı için bir uyarı almak mümkündür, yok sayın.",
-    "manager.windows": "Windows 10'dan indirin",
-    "manager.linux": "Linux'dan indirin",
-    "manager.title": "Indir Play50hz manager",
-    "manager.desc": "Play50hz Windows ve Linux uyumludur, tüm koleksiyonu yönetebilen bir sunucudur, çok fazla oyununuz varsa, onu da yüklemek ilginçtir",
     "title": "Indir Play50hz"
   }
 }
