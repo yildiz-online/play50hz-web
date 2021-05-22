@@ -24,7 +24,8 @@
   "nav": {
     "download": "Download Play50hz",
     "language": "Français",
-    "contact": "Contact"
+    "contact": "Contact",
+    "compatibility": "Supported emulators"
   },
   "download": {
     "player.android": "Soon available",

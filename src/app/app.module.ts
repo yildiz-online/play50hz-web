@@ -19,6 +19,7 @@ import {HomeComponent} from "./home/home.component";
 import {DownloadComponent} from "./download/download.component";
 import {NavigationComponent} from "./navigation/navigation.component";
 import {RoadmapComponent} from "./roadmap/roadmap.component";
+import {CompatibilityComponent} from "./compatibility/compatibility.component";
 import {CopyrightComponent} from "./footer/copyright.component";
 
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
   { path: '',             redirectTo: 'home', pathMatch : 'full' },
   { path: 'home',         component: HomeComponent },
   { path: 'download',     component: DownloadComponent },
-  { path: 'roadmap',      component: RoadmapComponent }
+  { path: 'roadmap',      component: RoadmapComponent },
+  { path: 'compatibility',      component: CompatibilityComponent }
 ];
 
 @NgModule({
@@ -39,7 +41,8 @@ const appRoutes: Routes = [
     DownloadComponent,
     RoadmapComponent,
     NavigationComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    CompatibilityComponent
   ],
   imports: [
     HttpClientModule,
