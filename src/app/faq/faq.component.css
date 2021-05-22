@@ -1,0 +1,15 @@
+.faq-question {
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 40px;
+  max-width: 90%;
+}
+.faq-answer {
+ padding-left: 60px;
+  max-width: 90%;
+}
+
+.question {
+  padding-right: 10px;
+  max-width: 4%;
+}

@@ -34,5 +34,11 @@
     "player.title": "Play50hz est compatible Windows, Linux, Raspberry PI 4 et bientôt Android",
     "player.desc": "Une fois téléchargé, déplacez le où vous désirez l'installer, cliquez dessus et laissez le faire, sous windows il est possible d'avoir un avertissement car l'application n'est pas signée, ignorez le.",
     "title": "Téléchargez Play50hz"
+  },
+  "faq": {
+    "question.1": "Lors de l'installation sous Windows, je reçois un message que l'application n'est pas sûre, est-ce que je dois m'inquiéter?",
+    "answer.1": "Pas le moins du monde, ce message est du au fait que l'application n'est pas signée numériquement, le prix des certificats de signature étant prohibitif, ceci ne changera probablement pas. Vous pouvez toutefois accéder au code source de l'installer depuis la page de téléchargement.",
+    "question.2": "Où puis-je télécharger des jeux?",
+    "answer.2": "Vous ne pouvez utiliser que des jeux dont vous possédez la licence, Play50hz ne supporte en aucun cas le piratage de jeux. Des jeux gratuits sont disponibles légalement sur certains sites, par exemple https://amigaland.de/spiele Bons jeux!"
   }
 }

@@ -34,5 +34,11 @@
     "player.title": "Play50hz Windows, Linux, Raspberry PI 4 ile uyumlu ve yakında Android",
     "player.desc": "İndirdikten sonra, yüklemek istediğiniz yere taşıyın, tıklayın ve yapmasına izin verin, pencerelerde uygulama imzalanmadığı için bir uyarı almak mümkündür, yok sayın.",
     "title": "Indir Play50hz"
+  },
+  "faq": {
+    "question.1": "Windows'a yüklerken, uygulamanın güvenli olmadığını belirten bir mesaj alıyorum, endişelenmeli miyim?",
+    "answer.1": "En azından, bu mesaj, uygulamanın dijital olarak imzalanmamış olmasından kaynaklanmaktadır, sertifika imzalama fiyatının yasaklayıcı olması, bu muhtemelen değişmeyecektir. Ancak, yükleyici kaynak koduna erişebilirsiniz. indirme sayfasından. ",
+    "question.2": "Oyunları nereden indirebilirim?",
+    "answer.2": "Yalnızca lisansına sahip olduğunuz oyunları kullanabilirsiniz, Play50hz hiçbir şekilde oyun korsanlığını desteklemez. Ücretsiz oyunlar yasal olarak bazı sitelerde mevcuttur, örneğin https://amigaland.de/spiele"
   }
 }
