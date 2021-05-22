@@ -20,9 +20,11 @@
       <li class="nav-item">
         <a class="nav-link" href="#" translate>nav.contact</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="swapLanguage()" href="#" translate>nav.language</a>
-      </li>
     </ul>
+    <select (change)="update($event)">
+      <option *ngFor="let l of languages" [value]="l">
+        {{l}}
+      </option>
+    </select>
   </div>
 </nav>

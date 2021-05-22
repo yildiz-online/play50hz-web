@@ -22,18 +22,25 @@ export class NavigationComponent {
 
   private language: string;
 
+  languages = [
+    "Français",
+    "English",
+    "Türçe"
+  ]
+
   constructor(private translate: TranslateService) {
     this.setLanguage(translate.getBrowserLang());
   }
 
-  swapLanguage() {
-    if(this.language === "en") {
+  update(event) {
+    if(event.target.value === "Français") {
       this.setLanguage("fr");
-    } else if (this.language === "fr") {
+    } else if (event.target.value === "Türçe") {
       this.setLanguage("tr");
     } else {
       this.setLanguage("en");
     }
+
   }
 
   private setLanguage(l: string) {

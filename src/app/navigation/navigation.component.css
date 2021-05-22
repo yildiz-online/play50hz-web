@@ -13,4 +13,9 @@
   padding-top: 0;
 }
 
+select {
+  background-color: #343a40;
+  color: rgba(255,255,255,.5);
+}
+
 
