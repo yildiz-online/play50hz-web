@@ -8,7 +8,7 @@
       "download": "Télécharger"
     },
     "content": {
-      "title": "Pourquoi Play50hz ?",
+      "title": "Pourquoi PXL ?",
       "card1.title": "Simple à utiliser, choisissez votre jeu, un bouton pressé et jouez!",
       "card1.body": "Rien de plus que de déposer vos roms dans le dossier, et puis tout est pret, pas de configuration fastidieuse, juste le plaisir de redécouvrir vos anciens jeux.",
       "card2.title": "Je veux tous mes anciens jeux!!!",
@@ -17,13 +17,12 @@
       "card3.title": "Je veux personnaliser mon système",
       "card3.body": "Tout est configurable, chaque élement peut être déplacé, redimensionné, modifié, créez vos propres thèmes pour chaque console, ou même pour chaque jeu.",
       "card4.title": "Je veux facilement gérer ma collection",
-      "card4.body": "Play50hz offre aussi un gestionnaire pour gérer votre collection de jeux retro, c'est une application dédiée qui vous permet de centraliser votre collection et la partager entre vos machines.",
+      "card4.body": "PXL offre aussi un gestionnaire pour gérer votre collection de jeux retro, c'est une application dédiée qui vous permet de centraliser votre collection et la partager entre vos machines.",
       "card4.body2": "Le gestionnaire est capable de détecter les doublons, que ce soit des roms, des covers ou des vidéos, ajoutez les simplement et il se charge de tout réconcilier."
     }
   },
   "nav": {
-    "download": "Téléchargez Play50hz",
-    "language": "Türkçe",
+    "download": "Téléchargez PXL",
     "contact": "Contact",
     "compatibility": "Emulateurs supportés"
   },
@@ -31,14 +30,14 @@
     "player.linux": "Linux",
     "player.raspberrypi64": "Raspberry Pi 64 bits",
     "player.windows": "Windows 10",
-    "player.title": "Play50hz est compatible Windows, Linux, Raspberry PI 4 et bientôt Android",
+    "player.title": "PXL est compatible Windows, Linux, Raspberry PI 4 et bientôt Android",
     "player.desc": "Une fois téléchargé, déplacez le où vous désirez l'installer, cliquez dessus et laissez le faire, sous windows il est possible d'avoir un avertissement car l'application n'est pas signée, ignorez le.",
-    "title": "Téléchargez Play50hz"
+    "title": "Téléchargez PXL"
   },
   "faq": {
     "question.1": "Lors de l'installation sous Windows, je reçois un message que l'application n'est pas sûre, est-ce que je dois m'inquiéter?",
     "answer.1": "Pas le moins du monde, ce message est du au fait que l'application n'est pas signée numériquement, le prix des certificats de signature étant prohibitif, ceci ne changera probablement pas. Vous pouvez toutefois accéder au code source de l'installer depuis la page de téléchargement.",
     "question.2": "Où puis-je télécharger des jeux?",
-    "answer.2": "Vous ne pouvez utiliser que des jeux dont vous possédez la licence, Play50hz ne supporte en aucun cas le piratage de jeux. Des jeux gratuits sont disponibles légalement sur certains sites, par exemple https://amigaland.de/spiele Bons jeux!"
+    "answer.2": "Vous ne pouvez utiliser que des jeux dont vous possédez la licence, PXL ne supporte en aucun cas le piratage de jeux. Des jeux gratuits sont disponibles légalement sur certains sites, par exemple https://amigaland.de/spiele Bons jeux!"
   }
 }

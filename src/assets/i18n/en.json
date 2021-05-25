@@ -8,7 +8,7 @@
       "download": "Download"
     },
     "content": {
-      "title": "Why Play50hz ?",
+      "title": "Why PXL ?",
       "card1.title": "Easy to use, select your game, press a button and play!",
       "card1.body": "Nothing else than putting your rom in the right directory, and you're done, no additional configuration, just the fun to rediscover your old treasures.",
       "card2.title": "I want to play all my old games!!!",
@@ -17,13 +17,12 @@
       "card3.title": "I want to customize my system",
       "card3.body": "Everything is configurable, each element can be moved, resized, modified, create your own themes for each console, or even for each game.",
       "card4.title": "I want to easily manage my collection",
-      "card4.body": "Play50hz also offers a manager to manage your collection of retro games, it is a dedicated application that allows you to centralize your collection and share it between your machines.",
+      "card4.body": "PXL also offers a manager to manage your collection of retro games, it is a dedicated application that allows you to centralize your collection and share it between your machines.",
       "card4.body2": "The manager is able to detect duplicates, whether roms, covers or videos, simply add them and it takes care of reconciling everything."
     }
   },
   "nav": {
-    "download": "Download Play50hz",
-    "language": "Français",
+    "download": "Download PXL",
     "contact": "Contact",
     "compatibility": "Supported emulators"
   },
@@ -31,15 +30,15 @@
     "player.linux": "Linux",
     "player.raspberrypi64": "Raspberry Pi 64 bits",
     "player.windows": "Windows 10",
-    "player.title": "Play50hz is compatible Windows, Linux, Raspberry PI 4 and soon Android",
+    "player.title": "PXL is compatible Windows, Linux, Raspberry PI 4 and soon Android",
     "player.desc": "Once downloaded, move it where you want to install it, click on it and let it do it, in windows it is possible to have a warning because the application is not signed, ignore it.",
-    "title": "Download Play50hz"
+    "title": "Download PXL"
   },
   "faq": {
     "question.1": "When installing on Windows, I get a message that the application is not secure, should I be concerned?",
     "answer.1": "Not in the least, this message is due to the fact that the application is not digitally signed, the price of signing certificates being prohibitive, this probably will not change. However, you can access the installer source code from the download page. ",
     "question.2": "Where can I download games?",
-    "answer.2": "You can only use games that you own a license for, Play50hz does not support game piracy in any way. Free games are legally available on some sites, for example https://amigaland.de / spiele Have fun!"
+    "answer.2": "You can only use games that you own a license for, PXL does not support game piracy in any way. Free games are legally available on some sites, for example https://amigaland.de / spiele Have fun!"
   }
 }
 
