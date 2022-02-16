@@ -22,4 +22,4 @@ before_install:
 
 script:
   - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs-amd64 yarn install
-  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs-amd64 ng build --prod
+  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs-amd64 ng build --configuration production
