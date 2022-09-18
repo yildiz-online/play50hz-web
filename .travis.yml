@@ -1,12 +1,10 @@
-sudo: required
-
 language: generic
 
 git:
   depth: false
 
 dist:
-  xenial
+  jammy
 
 cache:
   directories:
