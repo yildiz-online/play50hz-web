@@ -31,4 +31,4 @@ testem.log
 /e2e/*.map
 
 yarn-error.log
-/.angular/cache/13.2.3/
+/.angular/*
