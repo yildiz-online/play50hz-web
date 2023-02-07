@@ -16,8 +16,8 @@ services:
 
 before_install:
   - docker login -u="moussavdb" -p="$DOCKER_PASSWORD";
-  - docker pull moussavdb/build-nodejs-amd64
+  - docker pull moussavdb/build-nodejs
 
 script:
-  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs-amd64 yarn install
-  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs-amd64 ng build --configuration production
+  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs yarn install
+  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs ng build --configuration production
