@@ -20,4 +20,4 @@ before_install:
 
 script:
   - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs:lts yarn install
-  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs:lts ng build --configuration production
+  - docker run -v $PWD:/src -v $HOME/.npm:/root/.npm -v $PWD/node_modules:/src/node_modules -w /src moussavdb/build-nodejs:lts ng build
