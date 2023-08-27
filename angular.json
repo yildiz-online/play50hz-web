@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular.io-example:build:production"
+              "browserTarget": "play50hz-web:build:production"
             },
             "development": {
-              "browserTarget": "angular.io-example:build:development"
+              "browserTarget": "play50hz-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,6 @@
       }
     }
   },
-  "defaultProject": "play50hz-web",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
