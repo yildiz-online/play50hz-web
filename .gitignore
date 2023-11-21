@@ -30,5 +30,4 @@ testem.log
 /e2e/*.js
 /e2e/*.map
 
-yarn-error.log
 /.angular/*
