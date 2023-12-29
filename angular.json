@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "play50hz-web:build:production"
+              "buildTarget": "play50hz-web:build:production"
             },
             "development": {
-              "browserTarget": "play50hz-web:build:development"
+              "buildTarget": "play50hz-web:build:development"
             }
           },
           "defaultConfiguration": "development"
