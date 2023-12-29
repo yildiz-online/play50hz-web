@@ -27,10 +27,11 @@
     "compatibility": "Supported emulators"
   },
   "download": {
+    "docker": "Server docker image",
     "player.linux": "Linux",
     "player.raspberrypi64": "Raspberry Pi 64 bits",
-    "player.windows": "Windows 10",
-    "player.title": "PXL is compatible Windows, Linux, Raspberry PI 4 and soon Android",
+    "player.windows": "Windows 11",
+    "player.title": "PXL is compatible Windows, Linux, Raspberry PI 4(server)",
     "player.desc": "Once downloaded, move it where you want to install it, click on it and let it do it, in windows it is possible to have a warning because the application is not signed, ignore it.",
     "title": "Download PXL"
   },

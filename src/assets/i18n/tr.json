@@ -28,10 +28,11 @@
     "compatibility": "Emülatörler desteklenir"
   },
   "download": {
+    "docker": "Server docker image",
     "player.linux": "Linux",
     "player.raspberrypi64": "Raspberry Pi 64 bits",
-    "player.windows": "Windows 10",
-    "player.title": "PXL Windows, Linux, Raspberry PI 4 ile uyumlu ve yakında Android",
+    "player.windows": "Windows 11",
+    "player.title": "PXL Windows, Linux, Raspberry PI 4(Server) ile uyumlu",
     "player.desc": "İndirdikten sonra, yüklemek istediğiniz yere taşıyın, tıklayın ve yapmasına izin verin, pencerelerde uygulama imzalanmadığı için bir uyarı almak mümkündür, yok sayın.",
     "title": "Indir PXL"
   },

@@ -27,10 +27,11 @@
     "compatibility": "Emulateurs supportés"
   },
   "download": {
+    "docker": "Image docker du serveur",
     "player.linux": "Linux",
     "player.raspberrypi64": "Raspberry Pi 64 bits",
-    "player.windows": "Windows 10",
-    "player.title": "PXL est compatible Windows, Linux, Raspberry PI 4 et bientôt Android",
+    "player.windows": "Windows 11",
+    "player.title": "PXL est compatible Windows, Linux, Raspberry PI 4(Serveur)",
     "player.desc": "Une fois téléchargé, déplacez le où vous désirez l'installer, cliquez dessus et laissez le faire, sous windows il est possible d'avoir un avertissement car l'application n'est pas signée, ignorez le.",
     "title": "Téléchargez PXL"
   },
