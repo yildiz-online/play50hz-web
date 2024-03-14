@@ -4,72 +4,74 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@angular/animations':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/core@17.0.8)
-  '@angular/common':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/core@17.0.8)(rxjs@7.8.1)
-  '@angular/compiler':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/core@17.0.8)
-  '@angular/core':
-    specifier: 17.0.8
-    version: 17.0.8(rxjs@7.8.1)(zone.js@0.14.4)
-  '@angular/forms':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/common@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)(rxjs@7.8.1)
-  '@angular/platform-browser':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/animations@17.0.8)(@angular/common@17.0.8)(@angular/core@17.0.8)
-  '@angular/platform-browser-dynamic':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/common@17.0.8)(@angular/compiler@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)
-  '@angular/router':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/common@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)(rxjs@7.8.1)
-  '@ngx-translate/core':
-    specifier: 15.0.0
-    version: 15.0.0(@angular/common@17.0.8)(@angular/core@17.0.8)(rxjs@7.8.1)
-  '@ngx-translate/http-loader':
-    specifier: 8.0.0
-    version: 8.0.0(@angular/common@17.0.8)(@angular/core@17.0.8)(@ngx-translate/core@15.0.0)(rxjs@7.8.1)
-  core-js:
-    specifier: 3.36.0
-    version: 3.36.0
-  rxjs:
-    specifier: 7.8.1
-    version: 7.8.1
-  rxjs-compat:
-    specifier: 6.6.7
-    version: 6.6.7
-  zone.js:
-    specifier: 0.14.4
-    version: 0.14.4
+importers:
 
-devDependencies:
-  '@angular-devkit/build-angular':
-    specifier: 17.2.2
-    version: 17.2.2(@angular/compiler-cli@17.0.8)(@types/node@20.9.2)(typescript@5.2.2)
-  '@angular/cli':
-    specifier: 17.0.8
-    version: 17.0.8
-  '@angular/compiler-cli':
-    specifier: 17.0.8
-    version: 17.0.8(@angular/compiler@17.0.8)(typescript@5.2.2)
-  '@types/node':
-    specifier: 20.9.2
-    version: 20.9.2
-  ts-node:
-    specifier: 10.9.2
-    version: 10.9.2(@types/node@20.9.2)(typescript@5.2.2)
-  tslib:
-    specifier: 2.6.2
-    version: 2.6.2
-  typescript:
-    specifier: 5.2.2
-    version: 5.2.2
+  .:
+    dependencies:
+      '@angular/animations':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/core@17.0.8)
+      '@angular/common':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/core@17.0.8)(rxjs@7.8.1)
+      '@angular/compiler':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/core@17.0.8)
+      '@angular/core':
+        specifier: 17.0.8
+        version: 17.0.8(rxjs@7.8.1)(zone.js@0.14.4)
+      '@angular/forms':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/common@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)(rxjs@7.8.1)
+      '@angular/platform-browser':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/animations@17.0.8)(@angular/common@17.0.8)(@angular/core@17.0.8)
+      '@angular/platform-browser-dynamic':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/common@17.0.8)(@angular/compiler@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)
+      '@angular/router':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/common@17.0.8)(@angular/core@17.0.8)(@angular/platform-browser@17.0.8)(rxjs@7.8.1)
+      '@ngx-translate/core':
+        specifier: 15.0.0
+        version: 15.0.0(@angular/common@17.0.8)(@angular/core@17.0.8)(rxjs@7.8.1)
+      '@ngx-translate/http-loader':
+        specifier: 8.0.0
+        version: 8.0.0(@angular/common@17.0.8)(@angular/core@17.0.8)(@ngx-translate/core@15.0.0)(rxjs@7.8.1)
+      core-js:
+        specifier: 3.36.0
+        version: 3.36.0
+      rxjs:
+        specifier: 7.8.1
+        version: 7.8.1
+      rxjs-compat:
+        specifier: 6.6.7
+        version: 6.6.7
+      zone.js:
+        specifier: 0.14.4
+        version: 0.14.4
+    devDependencies:
+      '@angular-devkit/build-angular':
+        specifier: 17.2.2
+        version: 17.2.2(@angular/compiler-cli@17.0.8)(@types/node@20.9.2)(typescript@5.2.2)
+      '@angular/cli':
+        specifier: 17.0.8
+        version: 17.0.8
+      '@angular/compiler-cli':
+        specifier: 17.0.8
+        version: 17.0.8(@angular/compiler@17.0.8)(typescript@5.2.2)
+      '@types/node':
+        specifier: 20.9.2
+        version: 20.9.2
+      ts-node:
+        specifier: 10.9.2
+        version: 10.9.2(@types/node@20.9.2)(typescript@5.2.2)
+      tslib:
+        specifier: 2.6.2
+        version: 2.6.2
+      typescript:
+        specifier: 5.2.2
+        version: 5.2.2
 
 packages:
 
@@ -4510,8 +4512,8 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
-  /ip@2.0.0:
-    resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
+  /ip@2.0.1:
+    resolution: {integrity: sha512-lJUL9imLTNi1ZfXT+DU6rBBdbiKGBuay9B6xGSPVjUeQwaH1RIGqef8RZkUtHioLmSNpPR5M4HVKJGm1j8FWVQ==}
     dev: true
 
   /ipaddr.js@1.9.1:
@@ -6211,7 +6213,7 @@ packages:
     resolution: {integrity: sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ==}
     engines: {node: '>= 10.13.0', npm: '>= 3.0.0'}
     dependencies:
-      ip: 2.0.0
+      ip: 2.0.1
       smart-buffer: 4.2.0
     dev: true
 
